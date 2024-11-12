@@ -1,0 +1,8 @@
+- name: Inicio
+  link: /
+- name: Categoria
+  link: #
+- name: Publicar
+  link: #
+- name: Sobre
+  link: /about/

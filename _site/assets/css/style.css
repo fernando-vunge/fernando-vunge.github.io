@@ -1,0 +1,43 @@
+.container main {
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.navbar {
+  background-color: #007eb0 !important;
+}
+
+.nav-link {
+  font-size: 1.1em;
+  color: #fff !important;
+}
+
+.navbar .btn {
+  border-color: #fff;
+  color: #fff;
+}
+
+.current {
+  font-weight: 600;
+}
+
+.footer {
+  background-color: #e6e6e6 !important;
+}
+
+.footer .bi {
+  font-size: larger;
+}
+
+.send-email .btn {
+  border-color: #000000 !important;
+  background-color: transparent !important;
+  color: #000;
+}
+
+.send-email .btn:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+/*# sourceMappingURL=style.css.map */
