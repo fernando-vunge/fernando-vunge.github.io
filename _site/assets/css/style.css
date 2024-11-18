@@ -4,21 +4,29 @@
 }
 
 .navbar {
-  background-color: #007eb0 !important;
+  background-color: rgb(12, 13, 22) !important;
+}
+
+.navbar form {
+  margin: 10px 0;
 }
 
 .nav-link {
-  font-size: 1.1em;
-  color: #fff !important;
+  font-size: 1em;
+  color: #ffffff !important;
 }
 
-.navbar .btn {
+.navbar button {
   border-color: #fff;
   color: #fff;
 }
 
 .current {
-  font-weight: 600;
+  font-weight: bolder;
+  background-color: rgba(87, 87, 87, 0.5019607843);
+  width: 75px;
+  max-width: 75px;
+  text-align: center;
 }
 
 .footer {
@@ -38,6 +46,13 @@
 .send-email .btn:hover {
   background-color: #000 !important;
   color: #fff !important;
+}
+
+.title {
+  font-size: 0.99rem;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

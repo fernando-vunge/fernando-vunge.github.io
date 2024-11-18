@@ -3,19 +3,26 @@
     margin-top: 60px;
 }
 .navbar{
-    background-color: #007eb0 !important; 
+    background-color: rgb(12, 13, 22) !important; 
+}
+.navbar form {
+    margin: 10px 0;
 }
 .nav-link{
-    font-size: 1.1em;
-    color: #fff !important;
+    font-size: 1em;
+    color: #ffffff !important;
 }
-.navbar .btn
-{
+.navbar button {
     border-color: #fff;
     color: #fff;
 }
+
 .current {
-    font-weight: 600;
+    font-weight: bolder;
+    background-color: #57575780;
+    width: 75px;
+    max-width: 75px;
+    text-align: center;
 }
 .footer{
     background-color: #e6e6e6 !important; 
