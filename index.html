@@ -1,62 +1,62 @@
 ---
 layout: default
-title: blog
+title: Bymike
 ---
 
 <header class="bg-dark text-white text-center py-5" style="background-image: url('assets/images/711264.jpg'); background-size: cover; background-position: center;">
-    <div class="container">
-      <h1>Bem-vindo ao By Blog Musical</h1>
-      <p class="lead">Explorando a música, artistas e tendências atuais</p>
-      <p class="lead">Publique sua musica para milhares de pessoas que visitam o nosso blog</p>
-      <a href="#latest-posts" class="btn btn-primary mt-3">Ouvir Populares</a>
-    </div>
+		<div class="container">
+			<h1>🎶 Bymike</h1>
+			<p class="lead">Explore as músicas, artistas, tendências atuais mas perto de voce</p>
+			<p class="lead">Publique sua musica ou negocio para milhares de pessoas que visitam o nosso blog</p>
+			<a href="#latest-posts" class="btn btn-primary mt-3">Novos Posts</a>
+		</div>
 </header>
 
-  <!-- Seção de Últimos Posts -->
-  <section id="latest-posts" class="py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">Últimas publicacoes</h2>
-      <div class="row">
-        {% for item in site.data.musicas %}
-          {% include musica.html title=item.name author=item.author description=item.description %}
-        {% endfor %}
-      </div>
-    </div>
-  </section>
+ <!-- Seção de Últimos Posts -->
+<section id="latest-posts" class="py-5">
+	<div class="container">
+		<h2 class="text-center mb-4">Últimas publicacoes</h2>
+		<div class="row">
+			{% for item in site.data.musicas %}
+				{% include musica.html title=item.name author=item.author description=item.description %}
+			{% endfor %}
+		</div>
+	</div>
+</section>
 
-  <!-- Seção de Gêneros Musicais -->
-  <section class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center mb-4">Explore Gêneros</h2>
-      <div class="row">
-        <!-- Gênero 1 -->
-        <div class="col-md-3 text-center">
-          <div class="p-3 border bg-white">
-            <h5>Rock</h5>
-            <a href="#" class="btn btn-outline-dark mt-2">Ver Mais</a>
-          </div>
-        </div>
-        <!-- Gênero 2 -->
-        <div class="col-md-3 text-center">
-          <div class="p-3 border bg-white">
-            <h5>Jazz</h5>
-            <a href="#" class="btn btn-outline-dark mt-2">Ver Mais</a>
-          </div>
-        </div>
-        <!-- Gênero 3 -->
-        <div class="col-md-3 text-center">
-          <div class="p-3 border bg-white">
-            <h5>Hip-Hop</h5>
-            <a href="#" class="btn btn-outline-dark mt-2">Ver Mais</a>
-          </div>
-        </div>
-        <!-- Gênero 4 -->
-        <div class="col-md-3 text-center">
-          <div class="p-3 border bg-white">
-            <h5>Pop</h5>
-            <a href="#" class="btn btn-outline-dark mt-2">Ver Mais</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+	<!-- Seção de Gêneros Musicais -->
+	<section class="py-5 bg-light">
+		<div class="container">
+			<h2 class="text-center mb-4">Explore Gêneros</h2>
+			<div class="row">
+				<!-- Gênero 1 -->
+				<div class="col-md-3 text-center">
+					<div class="p-3 border bg-white">
+						<h5>Zouk/Naija</h5>
+						<a href="#" class="btn btn-outline-dark mt-2">Ver Mais</a>
+					</div>
+				</div>
+				<!-- Gênero 2 -->
+				<div class="col-md-3 text-center">
+					<div class="p-3 border bg-white">
+						<h5>Gospel</h5>
+						<a href="#" class="btn btn-outline-dark mt-2">Ver Mais</a>
+					</div>
+				</div>
+				<!-- Gênero 3 -->
+				<div class="col-md-3 text-center">
+					<div class="p-3 border bg-white">
+						<h5>Rap</h5>
+						<a href="#" class="btn btn-outline-dark mt-2">Ver Mais</a>
+					</div>
+				</div>
+				<!-- Gênero 4 -->
+				<div class="col-md-3 text-center">
+					<div class="p-3 border bg-white">
+						<h5>Afro House</h5>
+						<a href="#" class="btn btn-outline-dark mt-2">Ver Mais</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
