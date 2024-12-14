@@ -11,39 +11,37 @@ title: Publicar
 
 <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label"><i class="bi bi-music-note"></i> Titulo</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="post_titulo">
 </div>
 <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label"><i class="bi bi-person"></i> Autor ou Grupo</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="post_author">
 </div>
 
 <div class="mb-4">
     <label for="exampleFormControlInput1" class="form-label"><i class="bi bi-vinyl"></i> Genero</label>
-    <select class="form-select" aria-label="Default select example">
+    <select class="form-select" aria-label="Default select example" id="post_genero">
         <option selected>Rap</option>
-        <option value="1">AfroHouse</option>
-        <option value="2">Gospel</option>
-        <option value="3">Naija/Zouk</option>
-        <option value="3">Kizomba/Semba</option>
+        <option>AfroHouse</option>
+        <option>Gospel</option>
+        <option>Naija/Zouk</option>
+        <option>Kizomba/Semba</option>
     </select>
 </div>
 
 <div class="mb-4">
     <label for="exampleFormControlInput1" class="form-label"><i class="bi bi-card-text"></i> Descricao</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="post_descricao">
 </div>
 
 <div class="mb-3">
     <label for="exampleFormControlTextarea1" class="form-label"><i class="bi bi-pen"></i> Letra (Opcional)</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea class="form-control" id="post_letra" rows="3"></textarea>
 </div>
 
 <div class="d-grid gap-2 col-8 mx-auto">
-    <button class="btn btn-success" type="button">Enviar(WhatsApp)<i class="bi bi-send"></i></button>
-    <button class="btn btn-primary" type="button">Cancelar<i class="bi bi-cancel"></i></button>
+    <button class="btn btn-success" type="button" id="send_to_whatsapp">Enviar (WhatsApp) <i
+            class="bi bi-send"></i></button>
+    <button class="btn btn-primary" type="button" id="cancel_to_whatsapp">Cancelar<i class="bi bi-cancel"></i></button>
 </div>
-<div class="container">
-    <a href="https://wa.me/925171021?text=Olá bystreet!%0ATitulo:Meu%20amor%0AAutor:priavada%20gang"
-        target="_blank">Converse Conosco no WhatsApp</a>
-</div>
+<a href="" target="_blank" id="whatsapp_link"></a>
