@@ -1,8 +1,8 @@
 - name: Inicio
   link: /
-- name: Musica
+- name: Musicas
   link: /musics/
 - name: Publicar
-  link: #
+  link: /post/
 - name: Sobre
   link: /about/
