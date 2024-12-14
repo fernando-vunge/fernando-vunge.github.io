@@ -3,7 +3,12 @@
       <img src="../assets/images/70172.jpg" class="card-img-top" alt="Post 1">
       <div class="card-body">
         <h5 class="card-title">{{ include.title }}</h5>
-        <h6 class="card-subtitle text-muted">Autor: {{ include.author }}</h6>
+        <br>
+        <h6 class="card-subtitle text-muted mb-3"><i class="bi bi-person"></i> Autor: {{ include.author }}</h6>
+        <h6 class="card-subtitle text-muted mb-3"><i class="bi bi-calendar"></i> {{ include.date }}</h6>
+        <p id="descricao">
+          {{ include.description }}
+        </p>
         <a href="#" class="btn btn-outline-primary mt-3">Baixar <i class="bi bi-download"></i></a>
       </div>
     </div>
